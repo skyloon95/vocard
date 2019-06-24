@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62BD4C622BEB5B7002561CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BD4C522BEB5B7002561CB /* AppDelegate.swift */; };
+		B62BD4CB22BEB5B7002561CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62BD4C922BEB5B7002561CB /* Main.storyboard */; };
+		B62BD4CE22BEB5B7002561CB /* Vocard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B62BD4CC22BEB5B7002561CB /* Vocard.xcdatamodeld */; };
+		B62BD4D022BEB5B9002561CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62BD4CF22BEB5B9002561CB /* Assets.xcassets */; };
+		B62BD4DD22BF3A75002561CB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62BD4DC22BF3A75002561CB /* Launch Screen.storyboard */; };
+		B62BD50022BF674D002561CB /* VocaSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BD4FF22BF674D002561CB /* VocaSets.swift */; };
+		B62BD50622BF6A3A002561CB /* PastVocas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BD50522BF6A3A002561CB /* PastVocas.swift */; };
+		B62BD50822BF6AD0002561CB /* VoCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BD50722BF6AD0002561CB /* VoCards.swift */; };
+		B62BD50A22BF6B4B002561CB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BD50922BF6B4B002561CB /* Settings.swift */; };
+		B62BD50C22BF8A5A002561CB /* UserProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BD50B22BF8A5A002561CB /* UserProperties.swift */; };
+		B62BD50E22BFE007002561CB /* Vocabularies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BD50D22BFE007002561CB /* Vocabularies.swift */; };
+		B62BD51222C0105D002561CB /* VocabularyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BD51122C0105D002561CB /* VocabularyDB.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B62BD4C222BEB5B7002561CB /* Vocard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62BD4C522BEB5B7002561CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B62BD4CA22BEB5B7002561CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B62BD4CD22BEB5B7002561CB /* Vocard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vocard.xcdatamodel; sourceTree = "<group>"; };
+		B62BD4CF22BEB5B9002561CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B62BD4D422BEB5B9002561CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62BD4DC22BF3A75002561CB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B62BD4FF22BF674D002561CB /* VocaSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaSets.swift; sourceTree = "<group>"; };
+		B62BD50522BF6A3A002561CB /* PastVocas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastVocas.swift; sourceTree = "<group>"; };
+		B62BD50722BF6AD0002561CB /* VoCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoCards.swift; sourceTree = "<group>"; };
+		B62BD50922BF6B4B002561CB /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B62BD50B22BF8A5A002561CB /* UserProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProperties.swift; sourceTree = "<group>"; };
+		B62BD50D22BFE007002561CB /* Vocabularies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabularies.swift; sourceTree = "<group>"; };
+		B62BD51122C0105D002561CB /* VocabularyDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyDB.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62BD4BF22BEB5B7002561CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62BD4B922BEB5B7002561CB = {
+			isa = PBXGroup;
+			children = (
+				B62BD4C422BEB5B7002561CB /* Vocard */,
+				B62BD4C322BEB5B7002561CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B62BD4C322BEB5B7002561CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62BD4C222BEB5B7002561CB /* Vocard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62BD4C422BEB5B7002561CB /* Vocard */ = {
+			isa = PBXGroup;
+			children = (
+				B62BD4C522BEB5B7002561CB /* AppDelegate.swift */,
+				B62BD4C922BEB5B7002561CB /* Main.storyboard */,
+				B62BD50B22BF8A5A002561CB /* UserProperties.swift */,
+				B62BD50922BF6B4B002561CB /* Settings.swift */,
+				B62BD50722BF6AD0002561CB /* VoCards.swift */,
+				B62BD4FF22BF674D002561CB /* VocaSets.swift */,
+				B62BD4CF22BEB5B9002561CB /* Assets.xcassets */,
+				B62BD4D422BEB5B9002561CB /* Info.plist */,
+				B62BD4CC22BEB5B7002561CB /* Vocard.xcdatamodeld */,
+				B62BD4DC22BF3A75002561CB /* Launch Screen.storyboard */,
+				B62BD50522BF6A3A002561CB /* PastVocas.swift */,
+				B62BD50D22BFE007002561CB /* Vocabularies.swift */,
+				B62BD51122C0105D002561CB /* VocabularyDB.swift */,
+			);
+			path = Vocard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62BD4C122BEB5B7002561CB /* Vocard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62BD4D722BEB5B9002561CB /* Build configuration list for PBXNativeTarget "Vocard" */;
+			buildPhases = (
+				B62BD4BE22BEB5B7002561CB /* Sources */,
+				B62BD4BF22BEB5B7002561CB /* Frameworks */,
+				B62BD4C022BEB5B7002561CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vocard;
+			productName = Vocard;
+			productReference = B62BD4C222BEB5B7002561CB /* Vocard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B62BD4BA22BEB5B7002561CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Snow;
+				TargetAttributes = {
+					B62BD4C122BEB5B7002561CB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B62BD4BD22BEB5B7002561CB /* Build configuration list for PBXProject "Vocard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B62BD4B922BEB5B7002561CB;
+			productRefGroup = B62BD4C322BEB5B7002561CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62BD4C122BEB5B7002561CB /* Vocard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62BD4C022BEB5B7002561CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62BD4DD22BF3A75002561CB /* Launch Screen.storyboard in Resources */,
+				B62BD4D022BEB5B9002561CB /* Assets.xcassets in Resources */,
+				B62BD4CB22BEB5B7002561CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B62BD4BE22BEB5B7002561CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62BD50C22BF8A5A002561CB /* UserProperties.swift in Sources */,
+				B62BD50A22BF6B4B002561CB /* Settings.swift in Sources */,
+				B62BD4C622BEB5B7002561CB /* AppDelegate.swift in Sources */,
+				B62BD51222C0105D002561CB /* VocabularyDB.swift in Sources */,
+				B62BD50022BF674D002561CB /* VocaSets.swift in Sources */,
+				B62BD50622BF6A3A002561CB /* PastVocas.swift in Sources */,
+				B62BD50E22BFE007002561CB /* Vocabularies.swift in Sources */,
+				B62BD50822BF6AD0002561CB /* VoCards.swift in Sources */,
+				B62BD4CE22BEB5B7002561CB /* Vocard.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B62BD4C922BEB5B7002561CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62BD4CA22BEB5B7002561CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B62BD4D522BEB5B9002561CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B62BD4D622BEB5B9002561CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B62BD4D822BEB5B9002561CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSK32X7ZQ9;
+				INFOPLIST_FILE = Vocard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snow.Vocard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B62BD4D922BEB5B9002561CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSK32X7ZQ9;
+				INFOPLIST_FILE = Vocard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snow.Vocard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B62BD4BD22BEB5B7002561CB /* Build configuration list for PBXProject "Vocard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62BD4D522BEB5B9002561CB /* Debug */,
+				B62BD4D622BEB5B9002561CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62BD4D722BEB5B9002561CB /* Build configuration list for PBXNativeTarget "Vocard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62BD4D822BEB5B9002561CB /* Debug */,
+				B62BD4D922BEB5B9002561CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B62BD4CC22BEB5B7002561CB /* Vocard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B62BD4CD22BEB5B7002561CB /* Vocard.xcdatamodel */,
+			);
+			currentVersion = B62BD4CD22BEB5B7002561CB /* Vocard.xcdatamodel */;
+			path = Vocard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B62BD4BA22BEB5B7002561CB /* Project object */;
+}
