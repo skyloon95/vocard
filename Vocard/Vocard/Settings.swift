@@ -8,17 +8,21 @@
 
 import UIKit
 
-class Settings: UIViewController {
+class Settings: UIViewController, UITextFieldDelegate {
     
     var userProperties: UserProperties = UserProperties()
     
-    @IBOutlet var numOfVocaTF: UITextField!
+    @IBOutlet weak var numOfVocaTF: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         numOfVocaTF.text = "\(userProperties.numOfVocaPerDay)"
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -30,6 +34,15 @@ class Settings: UIViewController {
         }
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    
+    @IBAction func returnKey(_ sender: Any) {
+        self.textFieldShouldReturn(numOfVocaTF)
+    }
     
     /*
     // MARK: - Navigation

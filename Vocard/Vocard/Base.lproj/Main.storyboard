@@ -55,7 +55,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Exo-X2-eR0"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Zhz-PX-des">
+                    <navigationItem key="navigationItem" title="단어장" id="Zhz-PX-des">
                         <barButtonItem key="leftBarButtonItem" systemItem="add" id="Bv2-er-C8n">
                             <connections>
                                 <action selector="addVocalist:" destination="Su1-sn-jpr" id="nAw-EQ-Ig6"/>
@@ -124,7 +124,10 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="returnKey:" destination="VPR-d2-cpw" eventType="editingDidEnd" id="UfQ-h7-jab"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
